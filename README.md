@@ -1,6 +1,3 @@
-# Editable 3D Shapes
-Perfect — here’s a **short, flashy, high-impact README** that still looks serious and confident.
-This is ideal for GitHub + mid-eval reviewers who skim fast 👌
 
 ---
 
