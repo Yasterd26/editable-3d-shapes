@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data files (too large for git)
+data/processed/
+data/shapenet_mugs/
+data/shapenet_chairs/
+*.npz
+*.glb
+*.obj
+*.ply
+*.stl
+
+# Model checkpoints (too large for git)
+models/checkpoints/*.pth
+!models/checkpoints/.gitkeep
+
+# Results
+results/
+temp_mesh.glb
+
+# Logs
+logs/*.log
+logs/~*.docx
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+~*.docx
+~*.pptx
+convert_to_docx.py
+test_semantic.py
+
+# Environment
+.env
